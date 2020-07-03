@@ -1,0 +1,75 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.header-left h1 {
+    padding: 0 25px;
+    color: white;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    transition: all 0.5s;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    margin: 0 10px;
+    color: white;
+    display: inline-block;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-wrapper {
+    padding: 180px 0 600px 0;
+    background-image: url('./assets/building.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.container .top-wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+.main-content {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+}
+.main-content h2 {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+
+}
