@@ -42,7 +42,7 @@ header {
 
 .top-wrapper {
     padding: 180px 0 600px 0;
-    background-image: url('./building.jpg');
+    background-image: url('/building.jpg');
     background-size: cover;
     color: white;
     text-align: center;
